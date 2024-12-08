@@ -47,7 +47,7 @@ quality and outstanding customer service</div>
         </div>
         <div className="w-full md:w-1/2 md:h-[640px] h-full py-4 mt-8 md:mt-0 md:pl-0 bg-[#f9f9f9]">
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4 mx-4 md:mx-16 md:mt-16">
-                Our service isn't just personal, it's actually hyper personally exquisite
+                Our service isn`&apos;`t just personal, it's actually hyper personally exquisite
             </h2>
             <p className="text-gray-600 mb-4 mx-4 md:mx-16">
                 When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.
@@ -93,7 +93,7 @@ quality and outstanding customer service</div>
       <CreditCard className='size-7' />
       <div className='text-2xl'>Unbeatable Prices</div>
       <div className='text-[14px]'>
-      For our materials and quality you won’t find better prices anywhere
+      For our materials and quality you won`&apos;`t find better prices anywhere
       </div>
     </div>
   </div>

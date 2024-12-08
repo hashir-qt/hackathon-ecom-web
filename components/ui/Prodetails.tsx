@@ -1,11 +1,18 @@
 import React from 'react'
+import Image from 'next/image'
+import picture from "../public/Image Left.jpg"
 
 const Prodetails = () => {
   return (
     <div>
       <div className="container mx-auto flex flex-col lg:flex-row items-center lg:items-start">
    <div className="w-full lg:w-1/2">
-    <img alt="A modern black chair with a sleek design" className="w-full h-auto" height="800" src="https://storage.googleapis.com/a1aa/image/qhMfV8M55p1cEiWiAoCKcdGRdJMmtT4Iy01Sf5y1jXyz334TA.jpg" width="600"/>
+    <Image
+    src={picture}
+    alt='product'
+    width={721}
+    height={759}
+    />
    </div>
    <div className="w-full lg:w-1/2 mx-2 md:mx-20 mt-6 md:mt-20 ">
     <h1 className="text-3xl mx-2 font-semibold text-gray-800">

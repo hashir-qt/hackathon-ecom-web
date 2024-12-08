@@ -1,4 +1,4 @@
-import { Facebook, LinkedinIcon } from 'lucide-react'
+
 import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaPinterest, FaSkype, FaTwitter } from 'react-icons/fa'
 

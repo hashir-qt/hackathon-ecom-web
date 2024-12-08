@@ -37,16 +37,20 @@ export default function ShoppingCart() {
                 <p className="text-sm text-gray-500 mb-2">A timeless ceramic vase with a tri color grey glaze.</p>
                 <p className="text-base">£85</p>
                 <Input 
-                type="number" 
-                value="1"
+                type="text"
+                value="Fixed value"
+                readOnly
+              
                 className="w-16 md:hidden ml- text-center" 
               />
               </div>
             </div>
             <div className="md:flex hidden justify-center ">
               <Input 
-                type="number" 
+                type="text"
                 value="1"
+                readOnly
+              
                 className="w-16 text-center" 
               />
             </div>
@@ -69,16 +73,20 @@ export default function ShoppingCart() {
                 <p className="text-sm text-gray-500 mb-2">Beautiful and simple this is one for the classics</p>
                 <p className="text-base ">£85</p>
                 <Input 
-                type="number" 
+                type="text"
                 value="1"
+                readOnly
+              
                 className="w-16 md:hidden text-center" 
               />
               </div>
             </div>
             <div className="md:flex hidden justify-center">
               <Input 
-                type="number" 
+                type="text"
                 value="1"
+                readOnly
+              
                 className="w-16 text-center" 
               />
             </div>

@@ -9,6 +9,7 @@ import photo2 from "../public/photo2.jpg"
 import photo3 from "../public/photo3.jpg"
 import photo4 from "../public/photo4.png"
 import photobg from "../public/Image Block.jpg"
+import Link from 'next/link'
 const Landing = () => {
   return (
     <div>
@@ -93,12 +94,12 @@ const Landing = () => {
   <div className="container mx-auto px-4 md:px-28 py-8">
    <div className="grid grid-cols-2 sm:grid-cols-2  md:grid-cols-4 gap-4">
     <div className="text-left">
-    <Image
+    <Link href="/details"><Image
     src={photo1}
     alt='product'
     width={305}
     height={375}
-    />
+    /></Link>
      <h2 className="mt-4 text-lg font-medium">
       The Dandy chair
      </h2>
@@ -107,12 +108,12 @@ const Landing = () => {
      </p>
     </div>
     <div className="text-left">
-    <Image
+    <Link href="/details"><Image
     src={photo2}
     alt='product'
     width={305}
     height={375}
-    />
+    /></Link>
      <h2 className="mt-4 text-lg font-medium">
       Rustic Vase Set
      </h2>
@@ -121,12 +122,12 @@ const Landing = () => {
      </p>
     </div>
     <div className="text-left">
-    <Image
+    <Link href="/details"><Image
     src={photo3}
     alt='product'
     width={305}
     height={375}
-    />
+    /></Link>
      <h2 className="mt-4 text-lg font-medium">
       The Silky Vase
      </h2>
@@ -135,12 +136,12 @@ const Landing = () => {
      </p>
     </div>
     <div className="text-left">
-    <Image
+    <Link href="/details"><Image
     src={photo4}
     alt='product'
     width={305}
     height={375}
-    />
+    /></Link>
      <h2 className="mt-4 text-lg font-medium">
       The Lucy Lamp
      </h2>

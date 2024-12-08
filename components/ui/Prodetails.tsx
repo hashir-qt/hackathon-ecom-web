@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import picture from "../public/Image Left.jpg"
-
+import Link from 'next/link'
 const Prodetails = () => {
   return (
     <div>
@@ -75,9 +75,9 @@ const Prodetails = () => {
       </button>
       </div>
       <div className="mt-6 flex">
-     <button className="bg-indigo-900 text-white mb-2 px-6 py-3 mr-4">
+     <Link href="/cart" ><button className="bg-indigo-900 text-white mb-2 px-6 py-3 mr-4">
       Add to cart
-     </button>
+     </button></Link>
     
     </div>
      </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {  } from "module";
+
 import { Button } from './button';
 import photobg from "../public/Image Block.jpg"
 import Image from 'next/image';

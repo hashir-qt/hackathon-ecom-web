@@ -7,14 +7,28 @@ import product04 from "../public/photo4.png"
 import product05 from "../public/photo2.jpg"
 import { Button } from './button'
 import Link from 'next/link'
+import { ChevronDown } from 'lucide-react'
 const ProductLists = () => {
     return (
       <div>
-        <div className=''>
-
+        <div className='flex justify-around mt-4 md:hidden'>
+       <Button className='bg-[#f9f9f9] h-[56px] w-[160px]'>Filters <ChevronDown/></Button>
+       <Button className='bg-[#f9f9f9] h-[56px] w-[160px]'>Sorting <ChevronDown/></Button>
+       </div>
+       <div className='sm:block hidden md:flex mt-6 mb-4 justify-between mx-16  '>
+        <div className='flex gap-12'>
+        <button className='flex gap-2' >Category<ChevronDown className='size-5 mt-1'/></button>
+        <button className='flex gap-2' >Product Type<ChevronDown className='size-5 mt-1'/></button>
+        <button className='flex gap-2' >Price<ChevronDown className='size-5 mt-1'/></button>
+        <button className='flex gap-2' >Brand<ChevronDown className='size-5 mt-1'/></button>
+       </div>
+        <div className='flex gap-5'>
+       <div>Sorting By:</div>
+       <button className='flex gap-2' >Date Added<ChevronDown className='size-5 mt-1'/></button>
         </div>
+       </div>
         <div className="bg-white text-gray-900">
-          <div className="container mx-auto px-4 md:px-28 py-8">
+          <div className="container mx-auto px-4 md:px-28 py-6">
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
               <div className="text-left">
                <Link href="/details"> 

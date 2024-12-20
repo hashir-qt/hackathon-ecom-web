@@ -16,7 +16,7 @@ const Header = () => {
                       </div> 
                 
                     {/* Navigation Bar */}
-                    <nav className="bg-white ">
+                    <div className="bg-white ">
                         <div className="container  py-4 h-[69px] flex justify-between items-center ">
                             <Link href="/" className="text-2xl ml-7  text-gray-900"> Avion</Link>
                             <div className="flex items-center justify-between px-4 py-0 bg-white  md:hidden ">
@@ -53,7 +53,7 @@ const Header = () => {
                                 </div>
                             </div>
                             </div>
-                            </nav>
+                            </div>
                              {/* Mobile Navbar */}
                              <div className=" mx-auto">
             <ul className="hidden md:gap-12 md:flex p-5 justify-center h-[64px]  text-gray-500 bg-[#F9F9F9]">

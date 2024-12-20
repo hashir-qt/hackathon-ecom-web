@@ -31,7 +31,7 @@ const Landing = () => {
     sizes='w-[390px] h-[304px]'
     />
  </div>
-  {/* Use responsive classes correctly */}
+  
   <div className='hidden md:block md:w-full'>
       <Image
         src={hero01}
@@ -68,7 +68,7 @@ const Landing = () => {
     </div>
   </div>
 
-  {/* Card 23*/}
+  {/* Card 3*/}
   <div className='md:h-[244px] md:w-[305px] bg-[#F9F9F9] h-[196px] w-[342px]'>
     <div className='flex flex-col gap-3 px-12 justify-center py-4'>
       <CreditCard className='size-7' />

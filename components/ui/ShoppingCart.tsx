@@ -38,7 +38,7 @@ export default function ShoppingCart() {
                 <p className="text-base">£85</p>
                 <Input 
                 type="text"
-                value="Fixed value"
+                value="1"
                 readOnly
               
                 className="w-16 md:hidden ml- text-center" 
